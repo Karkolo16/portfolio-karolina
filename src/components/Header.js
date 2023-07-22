@@ -1,12 +1,11 @@
 import React from "react";
 
-const HomePage = () => {
+const Header = () => {
   return (
     <div>
       <h1>Witaj na stronie głównej!</h1>
-      <p>3 fotki z portfolio.</p>
     </div>
   );
 };
 
-export default HomePage;
+export default Header;
