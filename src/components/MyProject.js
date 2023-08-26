@@ -12,17 +12,35 @@ const MyProject = () => {
         My Portfolio
       </h3>
       <div className="project">
-        <a href="https://karkolo16.github.io/ecomm/" target="_blank">
+        <a
+          href="https://karkolo16.github.io/ecomm/"
+          target="_blank"
+          rel="noreferrer">
           <img src={require("../images/1.jpg")} alt="Ecomm" />
           <div style={PortfolioStyle} className="project-desc">
             E-COMM STORE <p>Project of ecomm store made in BOOSTRAP5.</p>
           </div>
         </a>
       </div>
-      <a href="https://karkolo16.github.io/quote-of-the-day/" target="_blank">
-        <img img src={require("../images/2.jpg")} alt="Quote Generator" />
-      </a>
-      <a href="https://karkolo16.github.io/react-app/" target="_blank">
+      <div className="project">
+        <a
+          href="https://karkolo16.github.io/quote-of-the-day/"
+          target="_blank"
+          rel="noreferrer">
+          <img img src={require("../images/2.jpg")} alt="Quote Generator" />
+          <div style={PortfolioStyle} className="project-desc">
+            QUOTE GENRATOR{" "}
+            <p>
+              Made in Javascript - this app generates quotes after cliking on
+              the button.
+            </p>
+          </div>
+        </a>
+      </div>
+      <a
+        href="https://karkolo16.github.io/react-app/"
+        target="_blank"
+        rel="noreferrer">
         <img img src={require("../images/reactapp.png")} alt="React app" />
       </a>
     </div>
