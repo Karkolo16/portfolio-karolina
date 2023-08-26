@@ -1,19 +1,25 @@
+/* MyProject.css */
+
 .my-project {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
+.my-portfolio {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
 .my-project a {
   flex: 1;
-  margin: 0 10px; /* Dodaj odstęp między zdjęciami */
+  margin: 10px 10px;
+  text-align: center;
 }
 
 .my-project img {
-  width: 100%;
-  height: 500px;
-}
-
-@media (max-width: 768px) {
-  .my-project {
-    flex-direction: column;
-  }
+  width: 700px;
+  height: auto;
+  max-height: 600px;
 }
