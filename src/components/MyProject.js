@@ -37,12 +37,20 @@ const MyProject = () => {
           </div>
         </a>
       </div>
-      <a
-        href="https://karkolo16.github.io/react-app/"
-        target="_blank"
-        rel="noreferrer">
-        <img img src={require("../images/reactapp.png")} alt="React app" />
-      </a>
+      <div className="project">
+        <a
+          href="https://karkolo16.github.io/react-app/"
+          target="_blank"
+          rel="noreferrer">
+          <img img src={require("../images/reactapp.png")} alt="React app" />
+          <div style={PortfolioStyle} className="project-desc">
+            TO DO LIST
+            <p>
+              App in React.js. You can make, edit and delete your daily tasks.
+            </p>
+          </div>
+        </a>
+      </div>
     </div>
   );
 };
